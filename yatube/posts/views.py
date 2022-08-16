@@ -80,4 +80,3 @@ def post_edit(request, post_id):
                   'posts/create_post.html',
                   {'form': form, 'is_edit': True}
                   )
-
